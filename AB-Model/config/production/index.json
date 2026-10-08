@@ -1,12 +1,21 @@
 {
-  "schema_version": 2,
-  "config_version": 1791435132345,
-  "generated_at": "2026-10-08T04:52:12.345Z",
+  "schema_version": 3,
+  "config_version": 1791442804724,
+  "generated_at": "2026-10-08T07:00:04.725Z",
   "experiments": [
     {
       "id": "recommendation_detikcom_001",
+      "name": "Detikcom Recommendation Model AB Test",
       "version": 1,
       "status": "active",
+      "target": {
+        "portal": "detikcom",
+        "feature": "box recommendation"
+      },
+      "experiment_keys": [
+        "newsfeed",
+        "detail"
+      ],
       "config_url": "./experiments/recommendation_detikcom_001/v1.json"
     }
   ]
