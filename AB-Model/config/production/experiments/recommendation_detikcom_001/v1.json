@@ -2,11 +2,12 @@
   "schema_version": 2,
   "id": "recommendation_detikcom_001",
   "name": "Detikcom Recommendation Model AB Test",
+  "event": "recommendation",
   "version": 1,
   "status": "active",
   "target": {
     "portal": "detikcom",
-    "feature": "recommendation"
+    "feature": "box recommendation"
   },
   "models": [
     {
@@ -62,5 +63,5 @@
       "tracking_rec": "model"
     }
   },
-  "updated_at": "2026-10-06T08:31:52.816Z"
+  "updated_at": "2026-10-08T04:35:17.757Z"
 }
