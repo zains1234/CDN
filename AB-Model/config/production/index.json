@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "config_version": 1791442804724,
-  "generated_at": "2026-10-08T07:00:04.725Z",
+  "config_version": 1791443452388,
+  "generated_at": "2026-10-08T07:10:52.388Z",
   "experiments": [
     {
       "id": "recommendation_detikcom_001",
@@ -14,7 +14,9 @@
       },
       "experiment_keys": [
         "newsfeed",
-        "detail"
+        "sticky",
+        "detail",
+        "index"
       ],
       "config_url": "./experiments/recommendation_detikcom_001/v1.json"
     }
